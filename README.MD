@@ -8,7 +8,7 @@ This repository contains the implementation for the manuscript:
 
 **"A Theoretical Analysis of PhysioChem-K-Mer Features for Protein Classification using Controlled Synthetic Benchmarks"**
 
-*Keerthika Kamaraj, Udayakumar Mani*  
+*Keerthika Kamaraj, Senthilkumar Rathnasamy, Udayakumar Mani*  
 *School of Chemical and Biotechnology, SASTRA Deemed University*
 
 ## 📖 Abstract
@@ -26,3 +26,4 @@ cd PhysioChem-K-Mer
 
 # Install dependencies
 pip install -r requirements.txt
+
