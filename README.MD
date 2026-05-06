@@ -29,12 +29,51 @@ pip install -r requirements.txt
 
 
 ## 📊 Key Results
-<pre>
-| Dataset | Method | Accuracy | Improvement | Features | Training Time |
-|---------|--------|----------|-------------|----------|---------------|
-| Synthetic (1,500 seqs) | Standard 3-mer | 37.00% | - | 1,000 | 43.2s |
-| Synthetic (1,500 seqs) | PhysioChem-Hydropathy | **81.33%** | **+119%** | **261** | **12.5s** |
-| Real UniProt (11,620 seqs) | Standard 3-mer | 16.95% | - | 1,000 | 198.95s |
-| Real UniProt (11,620 seqs) | PhysioChem-Hydropathy | **64.63%** | **+281%** | **261** | **36.65s** |
 
-</pre>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dataset</th>
+      <th>Method</th>
+      <th>Accuracy</th>
+      <th>Improvement</th>
+      <th>Features</th>
+      <th>Training Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Synthetic (1,500 seqs)</td>
+      <td>Standard 3-mer</td>
+      <td>37.00%</td>
+      <td>-</td>
+      <td>1,000</td>
+      <td>43.2s</td>
+    </tr>
+    <tr>
+      <td>Synthetic (1,500 seqs)</td>
+      <td><strong>PhysioChem-Hydropathy</strong></td>
+      <td><strong>81.33%</strong></td>
+      <td><strong>+119%</strong></td>
+      <td><strong>261</strong></td>
+      <td><strong>12.5s</strong></td>
+    </tr>
+    <tr>
+      <td>Real UniProt (11,620 seqs)</td>
+      <td>Standard 3-mer</td>
+      <td>16.95%</td>
+      <td>-</td>
+      <td>1,000</td>
+      <td>198.95s</td>
+    </tr>
+    <tr>
+      <td>Real UniProt (11,620 seqs)</td>
+      <td><strong>PhysioChem-Hydropathy</strong></td>
+      <td><strong>64.63%</strong></td>
+      <td><strong>+281%</strong></td>
+      <td><strong>261</strong></td>
+      <td><strong>36.65s</strong></td>
+    </tr>
+  </tbody>
+</table>
