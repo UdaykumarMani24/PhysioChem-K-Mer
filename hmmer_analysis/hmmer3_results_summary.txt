@@ -1,0 +1,2 @@
+Accuracy: 18.85%
+Macro F1: 22.77%

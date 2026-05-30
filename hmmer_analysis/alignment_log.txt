@@ -1,0 +1,171 @@
+nohup: ignoring input
+Aligning GPCR...
+Building profile for GPCR...
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             GPCR_aligned.fasta
+# output HMM file:                  hmm_profiles/GPCR.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     GPCR_aligned           930 12384   359    28.70  0.590 
+
+# CPU time: 0.42u 0.03s 00:00:00.44 Elapsed: 00:00:00.45
+Done: GPCR
+Aligning Hydrolase...
+Building profile for Hydrolase...
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             Hydrolase_aligned.fasta
+# output HMM file:                  hmm_profiles/Hydrolase.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     Hydrolase_aligned      930 14184   218   896.97  0.590 
+
+# CPU time: 0.34u 0.02s 00:00:00.36 Elapsed: 00:00:00.37
+Done: Hydrolase
+Aligning Ion_Channel...
+Building profile for Ion_Channel...
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             Ion_Channel_aligned.fasta
+# output HMM file:                  hmm_profiles/Ion_Channel.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     Ion_Channel_aligned    930 12516   460   263.91  0.590 
+
+# CPU time: 0.47u 0.03s 00:00:00.50 Elapsed: 00:00:00.50
+Done: Ion_Channel
+Aligning Isomerase...
+Building profile for Isomerase...
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             Isomerase_aligned.fasta
+# output HMM file:                  hmm_profiles/Isomerase.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     Isomerase_aligned      929  9349   333   564.11  0.590 
+
+# CPU time: 0.34u 0.02s 00:00:00.36 Elapsed: 00:00:00.36
+Done: Isomerase
+Aligning Kinase...
+Building profile for Kinase...
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             Kinase_aligned.fasta
+# output HMM file:                  hmm_profiles/Kinase.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     Kinase_aligned         929 43648   425    89.11  0.590 
+
+# CPU time: 1.02u 0.09s 00:00:01.11 Elapsed: 00:00:01.11
+Done: Kinase
+Aligning Ligase...
+Building profile for Ligase...
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             Ligase_aligned.fasta
+# output HMM file:                  hmm_profiles/Ligase.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     Ligase_aligned         930 22129   405   326.13  0.590 
+
+# CPU time: 0.60u 0.05s 00:00:00.65 Elapsed: 00:00:00.66
+Done: Ligase
+Aligning Lyase...
+Building profile for Lyase...
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             Lyase_aligned.fasta
+# output HMM file:                  hmm_profiles/Lyase.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     Lyase_aligned          929 13928   251   929.00  0.584 
+
+# CPU time: 0.27u 0.04s 00:00:00.31 Elapsed: 00:00:00.31
+Done: Lyase
+Aligning Structural_Protein...
+Building profile for Structural_Protein...
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             Structural_Protein_aligned.fasta
+# output HMM file:                  hmm_profiles/Structural_Protein.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     Structural_Protein_aligned   930  6894   265   100.82  0.590 
+
+# CPU time: 0.26u 0.02s 00:00:00.28 Elapsed: 00:00:00.28
+Done: Structural_Protein
+Aligning Transcription_Factor...
+Building profile for Transcription_Factor...
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             Transcription_Factor_aligned.fasta
+# output HMM file:                  hmm_profiles/Transcription_Factor.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     Transcription_Factor_aligned   930 14821   220   861.90  0.590 
+
+# CPU time: 0.36u 0.03s 00:00:00.39 Elapsed: 00:00:00.40
+Done: Transcription_Factor
+Aligning Transferase...
+Building profile for Transferase...
+# hmmbuild :: profile HMM construction from multiple sequence alignments
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# input alignment file:             Transferase_aligned.fasta
+# output HMM file:                  hmm_profiles/Transferase.hmm
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# idx name                  nseq  alen  mlen eff_nseq re/pos description
+#---- -------------------- ----- ----- ----- -------- ------ -----------
+1     Transferase_aligned    929 14197   246   550.97  0.590 
+
+# CPU time: 0.34u 0.03s 00:00:00.37 Elapsed: 00:00:00.38
+Done: Transferase

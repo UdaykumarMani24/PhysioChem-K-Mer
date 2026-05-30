@@ -1,0 +1,10 @@
+GPCR
+Hydrolase
+Ion_Channel
+Isomerase
+Kinase
+Ligase
+Lyase
+Structural_Protein
+Transcription_Factor
+Transferase
