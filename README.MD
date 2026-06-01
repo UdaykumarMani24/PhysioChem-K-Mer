@@ -14,13 +14,12 @@ This repository contains the implementation for the manuscript:
 
 ## 📖 Abstract
 
-Protein family classification remains challenging due to limitations in current k-mer approaches that ignore amino acids' biochemical properties. We present **PhysioChem-K-Mer**, a framework that transforms protein sequences into feature spaces based on physicochemical principles rather than sequence identity alone.
+Protein family classification remains challenging due to limitations in current k-mer approaches that treat amino acids as categorical tokens without directly encoding physicochemical properties. We present **PhysioChem-K-Mer**, a framework that transforms protein sequences into feature spaces based on physicochemical principles rather than sequence identity alone.
 
 **Key Results:**
-- **Synthetic benchmark:** 81.33% accuracy → **119% improvement** over standard 3-mer
-- **Real UniProt data:** 64.63% accuracy → **281% improvement** over standard 3-mer
+- **Synthetic benchmark:** 81.33% accuracy → **+44.33 percentage points** over standard 3-mer (37.00%)
+- **Real UniProt data:** 64.63% accuracy → **+47.68 percentage points** over standard 3-mer (16.95%)
 - **73.9% fewer features** and **71-81% faster training**
-
 ---
 
 ## 📊 Key Results
