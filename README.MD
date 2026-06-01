@@ -21,7 +21,7 @@ Standard k-mer methods treat amino acids as categorical tokens without directly 
 - **Real UniProt data:** 64.63% accuracy → **+47.68 percentage points** over standard 3-mer (16.95%)
 - **73.9% fewer features** and **71-81% faster training**
 
-- **The framework was further evaluated using real UniProt/Swiss-Prot data, comprising 11,620 sequences across 10 families, to ensure practical generalizability. By directly integrating biochemical knowledge into feature representations as a primary design principle, PhysioChem-K-mer combines interpretability with computational efficiency. These results suggest that physicochemical properties offer a vital source of information for protein classification, validated here on both synthetic and real-world data.**
+-
 ---
 
 ## 🚀 Quick Start
