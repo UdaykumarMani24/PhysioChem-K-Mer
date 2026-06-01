@@ -24,13 +24,10 @@ Protein family classification remains challenging due to limitations in current 
 
 ## 📊 Key Results
 
-| Dataset | Method | Accuracy | Absolute Gain | Features | Training Time |
-|---------|--------|----------|---------------|----------|----------------|
-| Synthetic (1,500 seqs) | Standard 3-mer | 37.00% | — | 1,000 | 43.2 s |
-| Synthetic (1,500 seqs) | PhysioChem-Hydropathy | 81.33% | +44.33 pp | 261 | 12.5 s |
-| Real UniProt (11,620 seqs) | Standard 3-mer | 16.95% | — | 1,000 | 198.95 s |
-| Real UniProt (11,620 seqs) | PhysioChem-Hydropathy | 64.63% | +47.68 pp | 261 | 36.65 s |
 
+- **Synthetic benchmark:** 81.33% accuracy → **+44.33 percentage points** over standard 3-mer (37.00%)
+- **Real UniProt data:** 64.63% accuracy → **+47.68 percentage points** over standard 3-mer (16.95%)
+- **73.9% fewer features** and **71-81% faster training**
 ---
 
 ## 🚀 Quick Start
