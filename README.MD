@@ -14,20 +14,16 @@ This repository contains the implementation for the manuscript:
 
 ## 📖 Abstract
 
-Protein family classification remains challenging due to limitations in current k-mer approaches that treat amino acids as categorical tokens without directly encoding physicochemical properties. We present **PhysioChem-K-Mer**, a framework that transforms protein sequences into feature spaces based on physicochemical principles rather than sequence identity alone.
+Standard k-mer methods treat amino acids as categorical tokens without directly encoding physicochemical properties. Although physicochemical properties have been incorporated into various bioinformatics tasks, their potential as a direct, systematic alternative for the k-mer counting paradigm has not been fully evaluated. We present **PhysioChem-K-mer**, a framework that transforms protein sequences into physicochemical property-based feature spaces, serving as an alternative to conventional amino-acid-identity k-mer representations.
+
+Our main hypothesis is that property-based representations capture functional constraints more effectively than traditional amino acid-based methods. To test this hypothesis, we created a controlled benchmark comprising **1,500 synthetic sequences** spanning 10 diverse protein families. The dataset retained core functional motifs while deliberately excluding evolutionary patterns typically found in natural biological sequences.
 
 **Key Results:**
 - **Synthetic benchmark:** 81.33% accuracy → **+44.33 percentage points** over standard 3-mer (37.00%)
 - **Real UniProt data:** 64.63% accuracy → **+47.68 percentage points** over standard 3-mer (16.95%)
 - **73.9% fewer features** and **71-81% faster training**
----
 
-## 📊 Key Results
-
-
-- **Synthetic benchmark:** 81.33% accuracy → **+44.33 percentage points** over standard 3-mer (37.00%)
-- **Real UniProt data:** 64.63% accuracy → **+47.68 percentage points** over standard 3-mer (16.95%)
-- **73.9% fewer features** and **71-81% faster training**
+The framework was further evaluated using real UniProt/Swiss-Prot data, comprising **11,620 sequences** across 10 families, to ensure practical generalizability. By directly integrating biochemical knowledge into feature representations as a primary design principle, PhysioChem-K-mer combines interpretability with computational efficiency. These results suggest that physicochemical properties offer a vital source of information for protein classification, validated here on both synthetic and real-world data.
 ---
 
 ## 🚀 Quick Start
